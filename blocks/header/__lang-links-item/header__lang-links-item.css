@@ -1,0 +1,19 @@
+.header__lang-links-item {
+  list-style-type: none;
+  padding-bottom: 6px;
+  margin: 0;
+  width: 29px;
+  height: 28px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-links-item {
+    width: 29px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-links-item {
+    width: 22px;
+  }
+}
