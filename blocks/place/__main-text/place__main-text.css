@@ -1,11 +1,17 @@
 .place__main-text {
   margin: 0;
   padding: 0;
+  margin-bottom: 32px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .place__main-text {
-    max-width: 288px;
-    margin: 0 16px;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .place__main-text {
+    margin: auto auto 18px 16px;
   }
 }

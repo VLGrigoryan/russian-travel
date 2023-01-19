@@ -1,5 +1,4 @@
 .header__lang-link {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -10,7 +9,7 @@
 }
 
 .header__lang-link:hover {
-  opacity: .7;
+  opacity: .8;
 }
 
 @media screen and (max-width: 320px) {

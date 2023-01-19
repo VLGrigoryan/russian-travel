@@ -8,8 +8,6 @@
 
 @media screen and (max-width: 320px) {
   .footer__links-list {
-    /* margin: 0 16px 24px 16px; */
-    max-height: 248pxpx;
     flex-direction: column;
     row-gap: 32px;
     margin-bottom: 48px;
