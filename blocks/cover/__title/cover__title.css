@@ -7,7 +7,7 @@
   margin: 0 auto;
   max-width: 610px;
   min-width: 288px;
-  font-size: max(min(76px, 9vw), 32px, 4vw);
+  font-size: max(min(72px, 9vw), 32px, 4vw);
 }
 
 @media screen and (max-width: 615px) {
