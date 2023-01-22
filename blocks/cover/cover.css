@@ -1,11 +1,15 @@
 .cover {
   max-width: 1184px;
+  min-height: 740px;
   background-image: url(../../images/__background.png);
   background-size: cover;
   margin: 92px auto;
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,7 +25,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 615px) {
   .cover {
     min-height: 200px;
     margin: 66px auto 64px auto;

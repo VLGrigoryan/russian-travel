@@ -11,7 +11,7 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 615px) {
   .place__url-heading {
     line-height: 100%;
   }

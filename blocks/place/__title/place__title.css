@@ -5,31 +5,20 @@
   line-height: 76px;
   margin: 0;
   padding: 0;
-  margin-top: 32px;
-}
-
-.place__title:first-of-type {
-  margin-top: 0;
-}
-
-@media screen and (max-width: 1024px) {
-  .place__title {    
-  }
+  grid-area: title;
 }
 
 @media screen and (max-width: 768px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
-    margin:25px 0 0 25px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 615px) {
   .place__title {
-    max-width: 288px;
     font-size: 32px;
     line-height: 35px;
-    margin: 18px 0 0 16px;
+    margin: 0 16px;
   }
 }

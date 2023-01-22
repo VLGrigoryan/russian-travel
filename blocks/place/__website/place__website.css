@@ -1,13 +1,12 @@
 .place__website {
-  max-width: 484px;
   margin: 0;
   padding: 0;
   align-self: flex-end;
+  grid-area: website;
 }
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 615px) {
   .place__website {
-    max-width: 288px;
     margin: 0 16px;
   }
 }
